@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cooking Master</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="padding-left: 3rem; margin-top: 2rem;"">Cooking Master</h1>
+    <div class=" meal-wrapper">
+      <div class="meal-search">
+
+
+        <div class="meal-search-box">
+          <input type="text" class="search-control" placeholder="Search for meal" id="search-input">
+          <button id="search-button" onclick="searchFood()" type="submit" class="search-btn btn" id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <!-- meal result -->
+      <div class="meal-result">
+        <h2 class="title">Your Search Results:</h2>
+
+        <div id="meal-details-content">
+
+         
+
+        </div>
+        <!-- end of meal result -->
+
+
+
+        <!-- display meal -->
+        <div id="meal">
+          
+         
+
+        </div>
+        <!-- end of display meal -->
+      </div>
+  </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
